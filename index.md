@@ -4,12 +4,12 @@ Using the [editor on GitHub](https://github.com/Chongrui1/Assignment2.github.io/
 
 GitHub Pages will run [Jekyll](https://jekyllrb.com/) to reconstruct the content in the website, from the content in the Markdown files.
 
-### Markdown
+### Description of programming content:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This is a project of the build of the slope map via using the D8 algorithm, this project is about output map of the maximum slope via using the original image and the associated programming idea of calculating the maximum slope value. The creation of this project's base is the application of "Pycharm" and external plugin "Anaconda".
 
-```markdown
-Syntax highlighted code block
+### How to run it?:
+Users can run it from pycharm application, and only need to run this model, all the related information can be downloaded, and all the maximum output map can be created.The project is mainly intended to simulate the offer to manufacturers, in order to provide a small project of the program for the production of maps of the maximum slope.
 
 # Header 1
 ## Header 2
