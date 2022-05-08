@@ -14,7 +14,7 @@ Users can run it from pycharm application, and only need to run this model, all 
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Module for designing my writing style via Markdown:
 
 ```markdown
 Syntax highlighted code block
