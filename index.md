@@ -12,26 +12,21 @@ This is a project of the build of the slope map via using the D8 algorithm, this
 Users can run it from pycharm application, and only need to run this model, all the related information can be downloaded, and all the maximum output map can be created.The project is mainly intended to simulate the offer to manufacturers, in order to provide a small project of the program for the production of maps of the maximum slope.
 
 # Header 1
-## Header 2
-### Header 3
+## This is the part of the core algorithm:
 
-- Bulleted
-- List
+  for i in range(len(data)):
+        for j in range(len(data[0])):
+            #get slope
+            S = data[i][j] - data[i + 1][j] if i != Xsize-1 else -1
+            SE = (data[i][j] - data[i + 1][j + 1]) / sqrt(2) if(i != (Xsize - 1) and j != (Ysize - 1))
+            ...
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+You can find more details via the[Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 ### Jekyll Themes
+[repository settings](https://github.com/Chongrui1/Assignment2.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Chongrui1/Assignment2.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
