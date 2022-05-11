@@ -29,7 +29,7 @@ Syntax highlighted code block
             ...
 
 
-[Link](https://github.com/Chongrui1/Assignment2.github.io/blob/main/images/D8_decorated_result.jpg) and ![Image](src)
+[Link](https://github.com/Chongrui1/Assignment2.github.io/blob/main/images/D8_decorated_result.jpg) and ![Image](![image](https://user-images.githubusercontent.com/102381717/167883493-57aae8ed-7513-4461-aa99-ad94c7ac2317.png))
 ```
 
 You can find more details via the[Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
